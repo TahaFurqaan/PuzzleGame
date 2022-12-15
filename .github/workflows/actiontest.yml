@@ -50,20 +50,5 @@ jobs:
         uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: John
-      - name: Simple JS Action 1
-        id: greet
-        uses: actions/hello-world-javascript-action@v3
-        with:
-          who-to-greet: Tom
-      - name: Simple JS Action
-        id: Greeting
-        uses: actions/hello-world-javascript-action@v1
-        with:
-          who-to-greeting: Jerry
-      - name: Simple JS Action 3
-        id: greet
-        uses: actions/hello-world-javascript-action@v3
-        with:
-          who-to-greeting: Jerry
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
