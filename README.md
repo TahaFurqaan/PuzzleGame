@@ -1,2 +1,2 @@
-A Puzzle Game folders.
+A Puzzle Ball Game folders.
 Contains Ball Movements Scripts and much more
