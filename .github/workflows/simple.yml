@@ -9,6 +9,8 @@ jobs:
       - name: echo a string
         run: echo "Hello World"
         timeout-minutes: 0
+      - name: echo a string
+        run: echo "Hello Meta"
       - name: multiline script 
         run: |
            node -v 
