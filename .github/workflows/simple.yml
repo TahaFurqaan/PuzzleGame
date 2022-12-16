@@ -11,6 +11,7 @@ jobs:
         timeout-minutes: 0
       - name: echo a string
         run: echo "Hello Meta"
+        timeout-minutes: 0
       - name: multiline script 
         run: |
            node -v 
