@@ -13,6 +13,12 @@ jobs:
         run: |
            node -v 
            npm -v
+      - name: script Command
+        run: |
+          import platform
+          print
+          (platform.processor())
+        shell: c#
       - name: python Command 
         run: |
           import platform 
